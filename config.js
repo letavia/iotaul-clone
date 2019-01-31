@@ -116,7 +116,7 @@ config.iota = {
         /**
          * Port where the IoT Agent will be listening for NGSI and Provisioning requests.
          */
-        port: 4061
+        port: 4041
     },
 
     /**
@@ -195,7 +195,7 @@ config.iota = {
         /**
          * Name of the set in case the Mongo database is configured as a Replica Set. Optional otherwise.
          */
-        //replicaSet: 'kubecity-rs'
+        replicaSet: 'kubecity-rs'
     },
 
     /**
@@ -220,7 +220,7 @@ config.iota = {
      * URL Where the IoT Agent Will listen for incoming updateContext and queryContext requests (for commands and passive
      * attributes). This URL will be sent in the Context Registration requests.
      */
-    providerUrl: 'http://localhost:4061',
+    providerUrl: 'http://localhost:4041',
 
     /**
      * Default maximum expire date for device registrations.
