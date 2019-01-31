@@ -180,6 +180,8 @@ config.iota = {
          * comma-separated list of the instance names or IPs.
          */
         host: 'mongodb-rs-kubecity',
+        username: 'root',
+        password: 'mongodb', 
 
         /**
          * Port where MongoDB is listening. In the case of a replicaSet, all the instances are supposed to be listening
