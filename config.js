@@ -1,10 +1,12 @@
 var config = {};
+
 config.mqtt = {
     host: 'localhost',
     port: 1883,
     qos: 0,
     retain: false
 };
+
 config.amqp = {
     host: 'localhost',
     port: 5672,
@@ -14,9 +16,11 @@ config.amqp = {
     queue: 'iotaqueue',
     options: {durable: true}
 };
+
 config.http = {
-    port: 7896,
+    port: 7896
 };
+
 config.iota = {
     logLevel: 'DEBUG',
     timestamp: true,
@@ -30,6 +34,7 @@ config.iota = {
     defaultResource: '/iot/d',
     deviceRegistry: {
         type: 'mongodb'
+    },    
     mongodb: {
         host: 'mongodb-rs-kubecity',
         username: 'root',
