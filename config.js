@@ -41,7 +41,7 @@ config.iota = {
         //username: 'root',
         //password: 'mongodb', 
         port: 27017,
-        db: 'iotaul'
+        db: 'iotagentul'
         //replicaSet: 'kubecity-rs'
     },
     types: {},
