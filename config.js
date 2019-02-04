@@ -36,10 +36,10 @@ config.iota = {
         type: 'mongodb'
     },    
     mongodb: {
-        host: 'root:mongodb@mongodb-rs-kubecity',
-        //host: 'mongodb-rs-kubecity',
-        //username: 'root',
-        //password: 'mongodb', 
+        //host: 'root:mongodb@mongodb-rs-kubecity',
+        host: 'mongodb-rs-kubecity',
+        username: 'root',
+        password: 'mongodb', 
         port: 27017,
         db: 'iotagentul'
         //replicaSet: 'kubecity-rs'
