@@ -17,9 +17,9 @@ var config = {};
     options: {durable: true}
 }; **/
 
-config.http = {
+/** config.http = {
     port: 7896
-}; 
+}; /**
 
 config.iota = {
     //logLevel: 'DEBUG',
