@@ -38,7 +38,7 @@ config.iota = {
     mongodb: {
         //host: 'root:mongodb@mongodb-rs-kubecity',
         host: 'mongodb-rs-kubecity',
-        username: 'root',
+        //username: 'root',
         password: 'mongodb', 
         port: 27017,
         db: 'iotaul',
