@@ -35,15 +35,15 @@ config.iota = {
     /** deviceRegistry: {
         type: 'mongodb'
     }, **/    
-    /** mongodb: {
-        host: 'root:mongodb@mongodb-rs-kubecity',
-        host: 'mongodb-rs-kubecity',
+    mongodb: {
+        //host: 'root:mongodb@mongodb-rs-kubecity',
+        //host: 'mongodb-rs-kubecity',
         username: 'root',
         password: 'mongodb', 
-        port: 27017,
-        db: 'iotaul',
-        replicaSet: 'kubecity-rs'
-    }, **/
+        //port: 27017,
+        //db: 'iotaul',
+        //replicaSet: 'kubecity-rs'
+    }, 
     types: {},
     //service: 'howtoService',
     //subservice: '/howto',
