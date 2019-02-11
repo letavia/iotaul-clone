@@ -53,6 +53,6 @@ config.iota = {
 };
 
 
-//config.defaultTransport = 'MQTT';
+config.defaultTransport = 'MQTT';
 
 module.exports = config;
