@@ -39,10 +39,10 @@ config.iota = {
         //host: 'root:mongodb@mongodb-rs-kubecity',
         //host: 'mongodb-rs-kubecity',
         username: 'root',
-        password: 'mongodb'
+        password: 'mongodb',
         //port: 27017,
         //db: 'iotaul',
-        //replicaSet: 'kubecity-rs'
+        replicaSet: 'kubecity-rs'
     }, 
     types: {},
     //service: 'howtoService',
@@ -53,6 +53,6 @@ config.iota = {
 };
 
 
-config.defaultTransport = 'MQTT';
+//config.defaultTransport = 'MQTT';
 
 module.exports = config;
