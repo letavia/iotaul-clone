@@ -28,9 +28,9 @@ config.iota = {
         //host: 'orion-cb',
         //port: 1026
     }, 
-    /** server: {
-        port: 4041
-    }, **/
+    server: {
+        //port: 4041
+    }, 
     //defaultResource: '/iot/d',
     /** deviceRegistry: {
         type: 'mongodb'
