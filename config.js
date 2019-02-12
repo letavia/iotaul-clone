@@ -24,10 +24,10 @@ config.mqtt = {
 config.iota = {
     //logLevel: 'DEBUG',
     //timestamp: true,
-    /** contextBroker: {
-        host: 'orion-cb',
-        port: 1026
-    }, **/
+    contextBroker: {
+        //host: 'orion-cb',
+        //port: 1026
+    }, 
     /** server: {
         port: 4041
     }, **/
