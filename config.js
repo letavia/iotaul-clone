@@ -1,11 +1,11 @@
 var config = {};
 
-/** config.mqtt = {
+config.mqtt = {
     host: 'localhost',
     port: 1883,
     qos: 0,
     retain: false
-}; **/
+};
 
 /** config.amqp = {
     host: 'localhost',
