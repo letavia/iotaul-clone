@@ -19,7 +19,7 @@ var config = {};
 
 /** config.http = {
     port: 7896
-}; /**
+}; **/
 
 config.iota = {
     //logLevel: 'DEBUG',
@@ -38,11 +38,11 @@ config.iota = {
     mongodb: {
         //host: 'root:mongodb@mongodb-rs-kubecity',
         //host: 'mongodb-rs-kubecity',
-        username: 'root',
-        password: 'mongodb',
+        //username: 'root',
+        //password: 'mongodb',
         //port: 27017,
         //db: 'iotaul',
-        replicaSet: 'kubecity-rs'
+        //replicaSet: 'kubecity-rs'
     }, 
     types: {},
     //service: 'howtoService',
